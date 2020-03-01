@@ -1,0 +1,19 @@
+{% extends "isehan/base.html" %}
+{% block content %}
+{% load static %}
+<div class="container">
+  <h2>「{{ object.email }}」さんのプロフィール</h2>
+  <dl class="row">
+    <dt class="col-sm-3">メールアドレス</dt>
+    <dd class="col-sm-9">{{ user.username }}</dd>
+    <dt class="col-sm-3">郵便番号</dt>
+    <dd class="col-sm-9">{{ user.zipcode }}</dd>
+    <dt class="col-sm-3">都道府県</dt>
+    <dd class="col-sm-9">{{ user.address1 }}</dd>
+  </dl>
+  <a class="btn btn-primary" href="{% url 'isehan:user_update' user.pk  %}" role="button">編集</a> <!-- 追記 -->
+</div>
+
+
+
+{% endblock %}

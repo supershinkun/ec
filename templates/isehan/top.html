@@ -1,0 +1,57 @@
+{% extends "isehan/base.html" %}
+{% block content %}
+{% load static %}
+    <link href="{% static 'plugins/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+    <link href="{% static 'plugins/owlcarousel/assets/owl.theme.default.css' %}" rel="stylesheet">
+    <script src="{% static 'plugins/owlcarousel/owl.carousel.min.js' %}"></script>
+
+    <section class="section-main bg padding-top-sm">
+        <div class="container">
+            <div class="row-sm">
+                <div class="col-md-8">
+                    <div class="owl-init slider-main owl-carousel" data-items="1" data-dots="false" data-nav="true">
+                        {% for item in all_items %}
+                        <div class="item-slide">
+                            <a href="{% url 'isehan:item_detail' item.pk %}"><img src="{{ item.thumbnail.url }}"></a>
+                        </div>
+                        {% endfor %}
+                    </div>                    
+                </div> 
+
+                <aside class="col-md-4">
+                    {% for item in random_items %}
+                    <div class="card mb-3">
+                        <figure class="itemside">
+                            <div class="aside"><div class="img-wrap p-2 border-right">
+                                    <a href="{% url 'isehan:item_detail' item.pk %}"><img class="img-sm" src="{{ item.thumbnail.url }}"></a>
+                            </div></div>
+                            <figcaption class="text-wrap align-self-center">
+                                <h5 class="title">{{ item.name }}</h5>
+                                <a href="{% url 'isehan:item_detail' item.pk %}">More items</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    {% endfor %}
+                </aside>
+            </div>
+        </div>
+    </section>
+    <section class="section-content padding-y bg">
+        <div class="container">
+
+            <div class="card">
+                <div class="card-body">
+
+                    <header class="section-heading">
+                        <h3 class="title-section">ISEHAN Store made by Django</h3>
+                    </header>
+
+                    <article>
+                        <p>DjangoでEC風のページを作成してみました。</p>
+                    </article>
+                </div>
+            </div>
+
+        </div>
+    </section>
+{% endblock %}

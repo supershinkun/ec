@@ -1,0 +1,31 @@
+{% extends "isehan/base.html" %}
+{% block content %}
+{% load static %}
+
+{% for name in category_name %}
+{% if forloop.first %}
+<h2>「{{ name.name }}」の商品一覧</h2>
+{% endif %}
+{% endfor %}
+
+<div class="row-sm">
+    {% for item in category_items %}
+    <div class="col-md-3">
+        <figure class="card card-product">
+            <div class="img-wrap">
+                <a href="{% url 'isehan:item_detail' item.pk %}">
+                    <img src="{{ item.thumbnail.url }}">
+                </a>
+            </div>
+            <figcaption class="info-wrap">
+                <h4 class="title "><a href="{% url 'isehan:item_detail' item.pk %}">{{ item.name }}</a></h4>
+                <div class="price-wrap">
+                    <span class="price-new">{{ item.price }}円</span><br>
+                </div>
+            </figcaption>
+        </figure>
+    </div>
+    {% endfor %}
+
+</div>
+{% endblock %}

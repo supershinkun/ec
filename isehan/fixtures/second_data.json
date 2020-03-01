@@ -1,0 +1,66 @@
+[
+  {
+    "model": "isehan.Category",
+    "pk": 1,
+    "fields": {
+      "name": "漫画",
+      "parent": 1
+    }
+  },
+  {
+    "model": "isehan.Category",
+    "pk": 2,
+    "fields": {
+      "name": "ビジネス",
+      "parent": 1
+    }
+  },
+  {
+    "model": "isehan.Category",
+    "pk": 3,
+    "fields": {
+      "name": "テレビ",
+      "parent": 2
+    }
+  },
+  {
+    "model": "isehan.Category",
+    "pk": 4,
+    "fields": {
+      "name": "冷蔵庫",
+      "parent": 2
+    }
+  },
+  {
+    "model": "isehan.Category",
+    "pk": 5,
+    "fields": {
+      "name": "電子レンジ",
+      "parent": 2
+    }
+  },
+  {
+    "model": "isehan.Category",
+    "pk": 6,
+    "fields": {
+      "name": "アウター",
+      "parent": 5
+    }
+  },
+  {
+    "model": "isehan.Category",
+    "pk": 7,
+    "fields": {
+      "name": "パンツ",
+      "parent": 5
+    }
+  },
+  {
+    "model": "isehan.Category",
+    "pk": 8,
+    "fields": {
+      "name": "インナー",
+      "parent": 5
+    }
+  }
+]

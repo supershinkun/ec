@@ -1,0 +1,226 @@
+[
+    {
+      "model": "isehan.Product",
+      "pk": 1,
+      "fields": {
+        "thumbnail": "1.jpg",
+        "name": "魔法の世紀",
+        "price": 10000.0,
+        "description1": "落合陽一の最初の本。",
+        "p_category": 1,
+        "category1": 2
+      }
+    },
+    {
+        "model": "isehan.Product",
+        "pk": 2,
+        "fields": {
+          "thumbnail": "2.jpg",
+          "name": "日本再興戦略",
+          "price": 200.0,
+          "description1": "まだ読んでない、読んでみたい本。",
+          "p_category": 1,
+          "category1": 2
+        }
+      },
+      {
+        "model": "isehan.Product",
+        "pk": 3,
+        "fields": {
+          "thumbnail": "3.jpg",
+          "name": "ワンピース 60巻",
+          "price": 30000.0,
+          "description1": "ワンピース60巻、読んだ事ない。",
+          "p_category": 1,
+          "category1": 1
+        }
+      },
+      {
+        "model": "isehan.Product",
+        "pk": 4,
+        "fields": {
+          "thumbnail": "4.jpg",
+          "name": "ワンピース 95巻",
+          "price": 20000.0,
+          "description1": "ワンピース95巻、読んだ事ない。",
+          "p_category": 1,
+          "category1": 1
+        }
+      },
+      {
+        "model": "isehan.Product",
+        "pk": 5,
+        "fields": {
+          "thumbnail": "5.jpg",
+          "name": "AIWA 60型TV",
+          "price": 2600000.0,
+          "description1": "安いけど良いテレビ。",
+          "p_category": 2,
+          "category1": 3
+        }
+      },
+      {
+        "model": "isehan.Product",
+        "pk": 6,
+        "fields": {
+          "thumbnail": "6.jpg",
+          "name": "TOSHIBA 冷蔵庫",
+          "price": 260000.0,
+          "description1": "大きめの冷蔵庫。",
+          "p_category": 2,
+          "category1": 4
+        }
+      },
+      {
+        "model": "isehan.Product",
+        "pk": 7,
+        "fields": {
+          "thumbnail": "7.jpg",
+          "name": "無印良品 冷蔵庫",
+          "price": 260000.0,
+          "description1": "一人暮らしに最適な冷蔵庫。",
+          "p_category": 2,
+          "category1": 4
+        }
+      },
+      {
+        "model": "isehan.Product",
+        "pk": 8,
+        "fields": {
+          "thumbnail": "8.jpg",
+          "name": "HITACHI 電子レンジ",
+          "price": 6000.0,
+          "description1": "高いけど高性能な電子レンジ。",
+          "p_category": 2,
+          "category1": 5
+        }
+      },
+      {
+        "model": "isehan.Product",
+        "pk": 9,
+        "fields": {
+          "thumbnail": "9.jpg",
+          "name": "IRIS OHYAMA",
+          "price": 6000.0,
+          "description1": "リーズナブルな電子レンジ。",
+          "p_category": 2,
+          "category1": 5
+        }
+      },
+      {
+        "model": "isehan.Product",
+        "pk": 10,
+        "fields": {
+          "thumbnail": "10.jpg",
+          "name": "小さめのお皿",
+          "price": 6000.0,
+          "description1": "小さめの万能なお皿。",
+          "p_category": 3
+        }
+      },
+      {
+        "model": "isehan.Product",
+        "pk": 11,
+        "fields": {
+          "thumbnail": "11.jpg",
+          "name": "大きめの木のお皿",
+          "price": 6000.0,
+          "description1": "さらだなどに適したお皿。",
+          "p_category": 3
+        }
+      },
+      {
+        "model": "isehan.Product",
+        "pk": 12,
+        "fields": {
+          "thumbnail": "12.jpg",
+          "name": "ビジネスカバン",
+          "price": 6000.0,
+          "description1": "一般的なビジネス用のカバン。",
+          "p_category": 4
+        }
+      },
+      {
+        "model": "isehan.Product",
+        "pk": 13,
+        "fields": {
+          "thumbnail": "13.jpg",
+          "name": "リュック",
+          "price": 6000.0,
+          "description1": "ビジネスでもプライベートでも使えるリュック。",
+          "p_category": 4
+        }
+      },
+      {
+        "model": "isehan.Product",
+        "pk": 14,
+        "fields": {
+          "thumbnail": "14.jpg",
+          "name": "黒のコート",
+          "price": 6000.0,
+          "description1": "ビジネスに適したコート。",
+          "p_category": 5,
+          "category1": 6
+        }
+      },
+      {
+        "model": "isehan.Product",
+        "pk": 15,
+        "fields": {
+          "thumbnail": "15.jpg",
+          "name": "茶のコート",
+          "price": 6000.0,
+          "description1": "ビジネスにもプライベートにも使えるコート。",
+          "p_category": 5,
+          "category1": 6
+        }
+      },
+      {
+        "model": "isehan.Product",
+        "pk": 16,
+        "fields": {
+          "thumbnail": "16.jpg",
+          "name": "黒のズボン",
+          "price": 6000.0,
+          "description1": "万能なズボン。",
+          "p_category": 5,
+          "category1": 7
+        }
+      },
+      {
+        "model": "isehan.Product",
+        "pk": 17,
+        "fields": {
+          "thumbnail": "17.jpg",
+          "name": "グレーのズボン",
+          "price": 6000.0,
+          "description1": "万能なズボン。",
+          "p_category": 5,
+          "category1": 7
+        }
+      },
+      {
+        "model": "isehan.Product",
+        "pk": 18,
+        "fields": {
+          "thumbnail": "18.jpg",
+          "name": "黒の富士山Tシャツ",
+          "price": 6000.0,
+          "description1": "面白いTシャツ。",
+          "p_category": 5,
+          "category1": 8
+        }
+      },
+      {
+        "model": "isehan.Product",
+        "pk": 19,
+        "fields": {
+          "thumbnail": "19.jpg",
+          "name": "白の富士山Tシャツ",
+          "price": 6000.0,
+          "description1": "面白いTシャツ。",
+          "p_category": 5,
+          "category1": 8
+        }
+      }   
+]
