@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'isehan',
     'bootstrap4',
-    'graphene_django',
 ]
 
 MIDDLEWARE = [
