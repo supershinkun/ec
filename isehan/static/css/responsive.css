@@ -1,7 +1,7 @@
 @media (max-width: 1200px) {
-  /* tablet devices */ }
+}
 @media (max-width: 992px) {
-  /* small tablet devices */
+  
   .slider-main .item-slide {
     height: auto; }
 
@@ -13,7 +13,7 @@
   .border-cols > [class*="col-"] {
     border-width: 0 0 1px 1px; } }
 @media all and (max-width: 768px) {
-  /* mobile devices */
+  
   .navbar {
     padding: 1rem; }
 
@@ -38,4 +38,4 @@
   .section-header .brand-wrap, .section-header .search-wrap, .section-header .widget-header, .header-main .brand-wrap, .header-main .search-wrap, .header-main .widget-header {
     margin-bottom: 1rem; } }
 
-/*# sourceMappingURL=responsive.css.map */
+

@@ -1,12 +1,8 @@
-/* ========================
-UIkit bootstrap-ecommerce.com 
-===================== */
-/* ==================== INCLUDE FONTS ======================= */
 @import url("../fonts/roboto/font.css");
 html {
   font-size: 15px; }
 
-/* ================== HELPERS  =================== */
+
 
 
 a:hover {
@@ -35,7 +31,7 @@ a:hover {
   transition: transform ease .3s;
   transition: transform ease .3s, -webkit-transform ease .3s; }
 
-/* =================  DEFINED VARIABLES =================== */
+
 .icon-xs, .icon-sm, .icon-md, .icon-lg {
   display: inline-block;
   text-align: center; }
@@ -133,13 +129,13 @@ a:hover {
 
 .hover-bg:hover {
   background: #007bff;
-  /* For browsers that do not support gradients */
-  /* For Safari 5.1 to 6.0 */
-  /* For Opera 11.1 to 12.0 */
-  /* For Firefox 3.6 to 15 */
+  
+  
+  
+  
   background: -webkit-gradient(linear, left top, right bottom, from(#007bff), to(#007bff));
   background: linear-gradient(to bottom right, #007bff, #007bff);
-  /* Standard syntax */
+  
   -webkit-transition: .5s;
   transition: .5s; }
 
@@ -149,7 +145,7 @@ a:hover {
   -webkit-transform: scaleX(1);
           transform: scaleX(1); }
 
-/* ========== input with icon ==========  */
+
 .input-icon {
   position: relative; }
   .input-icon i + input, .input-icon i + select {
@@ -167,7 +163,7 @@ a:hover {
 .form-inline .form-control-sm[type="number"] {
   max-width: 100px; }
 
-/* ========== borders ========== */
+
 .border {
   border: 1px solid #dee2e6; }
 
@@ -206,7 +202,7 @@ figure {
 .form-noborder select.form-control-lg:not([size]):not([multiple]) {
   height: 2.875rem; }
 
-/* all clearfix */
+
 article:after,
 .form-group:after {
   display: block;
@@ -222,7 +218,7 @@ article:after,
   border-width: 0 0 0 1px;
   border-style: solid; }
 
-/* -------------------- small grid gutter --------------------- */
+
 .row-sm {
   margin-right: -7px;
   margin-left: -7px;
@@ -247,13 +243,13 @@ article:after,
 
 .bg-grad-primary {
   background: #3395ff;
-  /* For browsers that do not support gradients */
-  /* For Safari 5.1 to 6.0 */
-  /* For Opera 11.1 to 12.0 */
-  /* For Firefox 3.6 to 15 */
+  
+  
+  
+  
   background: -webkit-gradient(linear, left top, right bottom, from(#0062cc), to(#3395ff));
   background: linear-gradient(to bottom right, #0062cc, #3395ff);
-  /* Standard syntax */ }
+   }
 
 .bg {
   background-color: #f8f8f8 !important; }
@@ -300,17 +296,17 @@ article:after,
     -webkit-transition: .5s;
     transition: .5s;
     background: #6c757d;
-    /* For browsers that do not support gradients */
-    /* For Safari 5.1 to 6.0 */
-    /* For Opera 11.1 to 12.0 */
-    /* For Firefox 3.6 to 15 */
+    
+    
+    
+    
     background: -webkit-gradient(linear, left top, right bottom, from(#007bff), to(#6c757d));
     background: linear-gradient(to bottom right, #007bff, #6c757d);
-    /* Standard syntax */ }
+     }
   .overlay-grad:hover:before {
     opacity: .9; }
 
-/* --------------------- titles ---------------------- */
+
 .section-heading {
   margin-bottom: 20px;
   margin-top: 10px; }
@@ -340,7 +336,7 @@ article:after,
   height: 40px;
   line-height: 20px; }
 
-/* ==================  title element ================ */
+
 .heading-line {
   position: relative; }
   .heading-line .title-section {
@@ -371,7 +367,7 @@ article:after,
 .black, .dark {
   color: #000; }
 
-/* ==================  title helpers ================ */
+
 .rtl {
   direction: rtl; }
 
@@ -392,12 +388,12 @@ article:after,
   padding-right: 15px;
   padding-left: 15px; }
 
-/* nogutter for 24 grid cols */
+
 .no-gutters > [class*="col-"] {
   padding-right: 0 !important;
   padding-left: 0 !important; }
 
-/* ================== SECTIONS =================== */
+
 .navbar-top {
   padding: 0; }
 
@@ -417,22 +413,22 @@ article:after,
   padding-top: 7px;
   padding-bottom: 7px; }
 
-/* ナビのドロップダウン */
+
 @media only screen and (min-width : 768px) {
-    /* デスクトップ表示ではホバー操作でドロップダウンを表示 */
+    
     .dropdown:hover .dropdown-menu {
         display: block;
     }
 }
 @media only screen and (min-width : 768px) {
-    /* デスクトップ表示ではホバー操作でドロップダウンを表示 */
+    
     .dropdown:hover .dropdown-menu {
         display: block;
     }
 }
 
 
-/* ================== header main ==================  */
+
 .header-above {
   padding-top: 17px;
   height: 80px;
@@ -445,15 +441,15 @@ article:after,
 /*  padding-top: 1rem;
   padding-bottom: 1rem; */
   color: white;
-  /*background-color: #1f1f2e*/
-  /*background-color: #ea6d38;*/
+  
+  
   background-color: rgb(6,13,26);
   padding: 8px 0px;
 }
 .header-main a{
   position: relative;
   top: 50%;
-  -webkit-transform: translateY(-50%); /* Safari用 */
+  -webkit-transform: translateY(-50%); 
   transform: translateY(-50%);
   color: #ffffff;
 }
@@ -462,7 +458,7 @@ article:after,
   margin: 0 5px;
 }
 .header-main .nav-item a{
-  /*background-color: rgb(234,109,56,0.85);*/
+  
   background-color: rgb(6,13,26,0.85);
   padding: 10px 20px;
 }
@@ -501,9 +497,9 @@ article:after,
     top: -3px;
     right: -10px; }
 
-/* desktop only */
-/* desktop only .end */
-/* ================ SECTION-FOOTER ==================  */
+
+
+
 .section-footer ul a {
   color: inherit; }
 
@@ -513,8 +509,8 @@ article:after,
 .footer-bottom {
   padding: 15px 0; }
 
-/* ================== PAGES =================== */
-/* ================ PAGES HEADER ================== */
+
+
 .section-pagetop {
   padding: 45px 0;
   background-repeat: no-repeat;
@@ -523,7 +519,7 @@ article:after,
     color: #fff;
     opacity: .6; }
 
-/* ================== PAGE DETAILS ==================  */
+
 .gallery-wrap .img-big-wrap {
   margin-bottom: 10px;
   overflow: hidden;
@@ -582,7 +578,7 @@ article:after,
   right: -30px;
   content: ">"; }
 
-/* slider main */
+
 .slider-main .owl-prev, .slider-main .owl-next {
   padding: 18px 7px;
   color: #FFF;
@@ -602,7 +598,7 @@ article:after,
     -o-object-fit: contain;
        object-fit: contain; }
 
-/* slide items  */
+
 .slide-items .owl-prev, .slide-items .owl-next {
   top: 42%; }
 
@@ -657,7 +653,7 @@ article:after,
 .list-inline-item {
   vertical-align: middle; }
 
-/* --------- description list --------*/
+
 [class*="dlist-"] {
   margin-bottom: 5px; }
   [class*="dlist-"] dd {
@@ -674,13 +670,13 @@ article:after,
   margin-left: 120px;
   vertical-align: baseline; }
 
-/* -------------------- list.row--------------------- */
+
 ul.row, ul.row-sm {
   list-style: none;
   padding: 0;
   margin-bottom: 0; }
 
-/* ================= lists ================= */
+
 [class*="list-"] li:after {
   visibility: hidden;
   display: block;
@@ -759,7 +755,7 @@ ul.row, ul.row-sm {
 
 .card-product {
   margin-bottom: 1rem;
-  /* btn-overlay-bottom */ }
+   }
   .card-product:after {
     content: "";
     display: table;
@@ -939,7 +935,7 @@ ul.row, ul.row-sm {
   .card-group-item:last-child {
     border-bottom: 0; }
 
-/* ====================== shopping-cart ==================== */
+
 .shopping-cart-wrap img {
   max-width: 100px; }
 .shopping-cart-wrap thead th {
@@ -952,7 +948,7 @@ ul.row, ul.row-sm {
   margin-right: 5px;
   display: block; }
 
-/* ====================== block ==================== */
+
 .box {
   padding: 1rem 1.2rem;
   display: block;
@@ -961,11 +957,11 @@ ul.row, ul.row-sm {
   -webkit-box-shadow: 0 1px 3px rgba(51, 51, 51, 0.1);
           box-shadow: 0 1px 3px rgba(51, 51, 51, 0.1); }
 
-/* --------- media element --------*/
+
 .media .img-wrap {
   margin-right: 1rem; }
 
-/* =================  ELEMENTS FOR PRODUCT =================== */
+
 .badge-new {
   top: 7px;
   left: 7px;
